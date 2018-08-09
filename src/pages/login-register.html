@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录-注册</title>
+</head>
+<body>
+    <header id="header"></header>
+    <main id="main">
+        <div class="title-box">
+            <h1 class="title">登录</h1>
+            <p class="subhead">还不是我们的会员？
+                <span class="l-r">注册</span>
+            </p>
+        </div>
+        <!-- 登录框 -->
+        <div class="lrbox">
+            <form action="#">
+                <div class="error-box user-box" data-msg="请输入正确的邮箱！">
+                    <label for="#">账号</label>
+                    <input class="user" type="text" placeholder="用户注册邮箱">
+                </div>
+                <div class="error-box pwd-box" data-msg="请输入6~16位的密码！">
+                    <label for="#">密码</label>
+                    <input class="pwd" type="password">
+                </div>
+                <div class="error-box rped-box" data-msg="两次密码不一致，请重新输入">
+                    <label for="#">确认密码</label>
+                    <input class="rpwd" type="password">
+                </div>
+                <p class="forget">忘记密码？</p>
+                <div class="btn">登录</div>
+            </form>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+
+
+</body>
+</html>
